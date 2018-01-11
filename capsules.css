@@ -1,0 +1,116 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    
+    background-color: black;
+    color: white;
+    
+    font-family: 'Trebuchet MS',Helvetica,Arial,sans-serif;
+}
+
+body {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.header {
+    width: 100%;
+    color: #cc9d49;
+}
+
+.header > img {
+    float: left;
+    margin-right: 12px;
+}
+
+.section_header {
+    text-align: center;
+    background: url("https://www.nespresso.com/mosaic/_ui/img/ProductBrowserBlock/product-title-bg.png") repeat-x scroll 0 0 #cdcdcd;
+    color: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 1.3em;
+}
+
+#filters {
+    margin-top: 12px;
+}
+
+.filter {
+    width: 30%;
+}
+
+.filter--input {
+    height: calc(12px * 2);
+    border: 0;
+    padding-left: 12px;
+}
+
+#visible_capsules {
+    background-color: white;
+    color: black;
+    height: 400px;
+    overflow-y: auto;
+}
+
+.capsule {
+    padding-left: 12px;
+    padding-top: 24px;
+    padding-bottom: 12px;
+}
+
+.capsule:hover {
+    background-color: #E6E6E6
+}
+
+.name {
+    font-size: 1.5em;
+}
+
+.intensity > span {
+    padding-right: 12px;    
+}
+
+.bar {
+    height: 12px;
+    width: 24px;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.intensity-1 > .bar {
+    background-color: #66ffcc;
+}
+
+.intensity-2 > .bar {
+    background-color: #66ff99;
+}
+
+.intensity-3 > .bar {
+    background-color: #ccff99;
+}
+
+.intensity-4 > .bar {
+    background-color: #ffff99;
+}
+
+.intensity-5 > .bar {
+    background-color: #ffcc99;
+}
+
+.intensity-6 > .bar {
+    background-color: #ff9966;
+}
+
+.intensity-7 > .bar {
+    background-color: #ff9933;
+}
+
+.intensity-8 > .bar {
+    background-color: #ff6600;
+}
+
+.intensity-max > .bar {
+    background-color: #ff0000;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Capsules</title>
+    <link rel="stylesheet" href="capsules.css">
+</head>
+<body>
+    <div class="header">
+        <img data-feo-orig-src="/ecom/medias/sys_master/public/9643325718558/nespresso-logo-2.png" width="175" height="33" alt="" class="bi" src="https://www.nespresso.com/feo-cdn/W/2/uy9-TyAcQ.webp">
+        <h1 class="title">
+            Capsules filtering challenge.
+        </h1>
+    </div>
+    <div id="capsules">
+        <div class="header section_header">
+            <span class="text">Find your capsule!</span>
+            <div id="filters">
+                <input id="text_filter" class="filter filter--input" type="text" placeholder="Name" />
+                <input id="intensity_filter" class="filter filter--input" type="number" placeholder="Minimum intensity" />
+                <select id="order_fitler" class="filter filter--select">
+                    <option selected value>No ordering</option>
+                    <option value="orderAlpha">Alphabetical</option>
+                    <option value="orderReverseAlpha">Reversed Alphabetical</option>
+                </select>
+            </div>
+        </div>
+        <div id="visible_capsules">
+
+        </div>
+    </div>
+    <script src="mocks/mocks.js"></script>
+    <script src="capsulesFilter.js"></script>
+    <script src="capsulesView.js"></script>
+</body>
+</html>
